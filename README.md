@@ -78,7 +78,7 @@
 ### 方式二：手动配置
 
 1. 安装 **Minecraft 1.20.1** + **Fabric Loader 0.16.14**（Java 17）；
-2. 按下方[模组清单](#模组清单)安装 26 个模组（版本需一致）；
+2. 按下方[模组清单](#模组清单)安装 25 个模组（版本需一致）；
 3. 将仓库中的 `config/` 覆盖到版本目录，`resourcepacks/`、`shaderpacks/` 放入对应目录；
 4. 将世界存档解压到 `saves/`，启动游戏。
 
@@ -103,7 +103,7 @@
 
 ## 模组清单
 
-共 **26** 个模组，全部来自 CurseForge / Modrinth。仅列出名称、版本与用途，版权归各模组作者所有。
+共 **25** 个模组，全部来自 Modrinth（整合包按 SHA-512 校验文件）。仅列出名称、版本与用途，版权归各模组作者所有。
 
 <details>
 <summary><b>展开完整清单</b></summary>
@@ -143,9 +143,8 @@
 | 模组 | 版本 | 用途 |
 | --- | --- | --- |
 | Yuushya（方块小镇） | 2.2.3 | 现代建筑装饰方块 |
-| KleeSlabs | 15.0.6 | 只破坏半砖的一半 |
+| KleeSlabs | 15.0.6（Fabric） | 只破坏半砖的一半 |
 | Enchanted Vertical Slabs | 2.2.1 | 竖直半砖 |
-| LotTweaks（色轮） | 2.2.5 | 方块颜色微调 |
 
 ### 辅助
 
@@ -163,6 +162,8 @@
 
 **资源包**：Minecraft-Mod-Language-Modpack（模组汉化，2.0 MB）
 **光影**：Derivative Main d24.4.4（国创写实风格，兼容 Distant Horizons，19.9 MB）
+
+> 资源包与光影因第三方授权原因**不随整合包分发**，请从各自发布页下载后放入 `resourcepacks/` / `shaderpacks/`。另：色轮（LotTweaks）为 Forge 版，在 Fabric 下不生效，未纳入整合包。
 
 ---
 
