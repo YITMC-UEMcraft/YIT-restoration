@@ -205,8 +205,8 @@ YIT-restoration/
 | --- | --- |
 | 主存档 | `燕京理工学院复原工程-2026-11-06` |
 | 完整体积 | 约 **3.3 GB**，其中 **2.5 GB** 为 `data/DistantHorizons.sqlite` |
-| 发布体积 | 剔除 LOD 缓存后约 **800 MB**（压缩后更小） |
-| 分发方式 | GitHub Releases（单个文件 < 2 GB）；超出时使用分卷或网盘镜像 |
+| 发布体积 | 剔除 LOD 缓存后约 **814 MB**，压缩后约 **447 MB** |
+| 分发方式 | [GitHub Releases](https://github.com/YITMC/YIT-restoration/releases/latest)（单个文件 < 2 GB）；超出时使用分卷或网盘镜像 |
 
 存档中的 LOD 缓存删除后，客户端首次进入会重新生成，不影响建筑本身。发布前还会清除玩家数据、统计与聊天记录。
 
