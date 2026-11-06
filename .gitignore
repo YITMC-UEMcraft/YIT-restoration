@@ -1,0 +1,50 @@
+# ============================================================
+# 燕理复原工程 · 仓库忽略规则
+# 原则：只提交「项目资产」与「配置」，不提交游戏运行数据与第三方文件
+# ============================================================
+
+# ---------- 世界存档与运行数据（体积大 / 含隐私）----------
+saves/
+logs/
+crash-reports/
+replay_recordings/
+ChatImageCache/
+Distant_Horizons_server_data/
+CustomSkinLoader/
+.fabric/
+.mimosa/
+.replay_cache/
+PCL/
+*-natives/
+
+# ---------- 含服务器地址 / 玩家信息 / 登录信息 ----------
+servers.dat
+servers.dat_old
+usercache.json
+options.txt
+authlib-injector.log
+irisUpdateInfo.json
+playerdata/
+stats/
+advancements/
+*.log
+
+# ---------- 第三方内容：不转载 ----------
+mods/
+shaderpacks/
+resourcepacks/*.zip
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# ---------- 发布包走 Releases，不进历史 ----------
+*.zip
+*.7z
+*.rar
+
+# ---------- 系统与编辑器 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.tmp
