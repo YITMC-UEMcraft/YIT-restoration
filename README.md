@@ -67,7 +67,7 @@
 
 ### 方式一：导入整合包（推荐）
 
-1. 打开 [Releases](https://github.com/YITMC/YIT-restoration/releases) 页面，下载最新的 `燕理复原-*.mrpack`；
+1. 打开 [Releases](https://github.com/YITMC/YIT-restoration/releases) 页面，下载最新的 `YIT-restoration-*.mrpack`；
 2. 用启动器导入：
    - **HMCL**：版本列表 → 安装新游戏 → 从整合包导入；
    - **PCL2**：下载 → 整合包 → 导入本地整合包；
