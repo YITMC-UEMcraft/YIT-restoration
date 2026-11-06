@@ -1,20 +1,23 @@
 <div align="center">
 
-<img src="docs/images/logo.png" alt="燕理MC玩家创作协会" width="120">
+<img src="docs/images/logo.png" alt="燕理MC玩家创作协会" width="110" />
 
-# 燕理复原工程
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=2F81F7&center=true&vCenter=true&width=700&lines=Yanli+Campus+Restoration;Minecraft+1.20.1+%C2%B7+Fabric+0.16.14;Rebuilding+the+campus%2C+block+by+block" alt="Typing SVG" />
 
-**Yanli Campus Restoration — 在 Minecraft 里重建燕京理工学院**
+### 燕京理工学院校园复原工程
 
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1-62B47A?logo=minecraft&logoColor=white)](#运行环境)
-[![Fabric](https://img.shields.io/badge/Fabric%20Loader-0.16.14-DBB69B)](#运行环境)
-[![License](https://img.shields.io/badge/代码-PolyForm%20NC%201.0.0-blue)](#许可证)
-[![Assets](https://img.shields.io/badge/建筑资产-CC%20BY--NC--SA%204.0-lightgrey)](#许可证)
-[![合作](https://img.shields.io/badge/合作-燕京理工学院校方-blueviolet)](#与校方的关系)
+把校园，一块一块建回来。
 
-**燕理MC玩家创作协会（YITMC）集体资产** · **燕京理工学院校方合作项目**
+[![Release](https://img.shields.io/github/v/release/YITMC-UEMcraft/YIT-restoration?style=flat-square&color=2f81f7&label=Release)](https://github.com/YITMC-UEMcraft/YIT-restoration/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/YITMC-UEMcraft/YIT-restoration/total?style=flat-square&color=2f81f7&label=Downloads)](https://github.com/YITMC-UEMcraft/YIT-restoration/releases)
+[![Stars](https://img.shields.io/github/stars/YITMC-UEMcraft/YIT-restoration?style=flat-square&color=2f81f7&label=Stars)](https://github.com/YITMC-UEMcraft/YIT-restoration/stargazers)
+[![License](https://img.shields.io/badge/License-PolyForm%20NC%201.0.0-2f81f7?style=flat-square)](#许可证)
 
-[项目简介](#项目简介) · [快速开始](#快速开始) · [模组清单](#模组清单) · [参与贡献](#参与贡献) · [许可证](#许可证)
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1-62B47A?style=flat-square&logo=minecraft&logoColor=white)](#运行环境)
+[![Fabric](https://img.shields.io/badge/Fabric-0.16.14-DBB69B?style=flat-square)](#运行环境)
+[![Mods](https://img.shields.io/badge/Mods-25-2f81f7?style=flat-square)](#模组清单)
+
+**燕理MC玩家创作协会（YITMC）集体资产** · 燕京理工学院校方合作项目
 
 </div>
 
@@ -32,34 +35,24 @@
 
 > 本项目由燕理MC玩家创作协会发起，与燕京理工学院校方保持合作关系，属于**半官方校园文化项目**。项目内容由社团独立创作与维护，不代表校方对具体内容的正式立场。
 
-### 预览
+### 项目速览
 
-![校园主路](docs/images/cover.jpg)
-![校园街景](docs/images/gallery-1.jpg)
+| 项目 | 内容 |
+| --- | --- |
+| 游戏版本 | Minecraft **1.20.1** |
+| 模组加载器 | Fabric Loader **0.16.14** |
+| 整合包 | **25** 个模组，Modrinth 直链 + SHA-512 校验 |
+| 世界存档 | 发布版 **447 MB**（已剔除 LOD 缓存与玩家数据） |
+| 最新版本 | [v1.0.0](https://github.com/YITMC-UEMcraft/YIT-restoration/releases/tag/v1.0.0) |
+| 许可证 | 代码 PolyForm NC 1.0.0 · 资产 CC BY-NC-SA 4.0 |
 
 ---
 
-## 社团资产声明
+## 预览
 
-> **本仓库及其中的全部原创内容，均为燕理MC玩家创作协会（YITMC）的集体资产。**
-
-具体包括：世界存档与建筑作品、投影与结构文件、配置方案、文档、截图、宣传素材，以及本项目衍生的整合包。
-
-- 上述内容由社团成员协作创作，**著作权由社团集体享有**，不归属任何个人；
-- 仓库应存放于社团组织账号下，个人成员不得以个人名义转让、注册、质押或主张独占权利；
-- 任何对外使用——转载、二次发布、商用、文创开发、商业展出——须事先取得社团书面许可；
-- 参与贡献即视为同意《贡献者授权声明》，详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
-
-完整的资产归属说明见 [NOTICE](NOTICE)。
-
-### 与校方的关系
-
-本项目为**半官方合作项目**：由燕理MC玩家创作协会发起，负责创作、技术实现与日常维护；与燕京理工学院校方按双方合作协议开展合作，校方可在教学、招生宣传、校园文化建设等场景中使用项目成果。
-
-- 燕理MC玩家创作协会是燕京理工学院**注册学生社团**，社团身份可由校方核实；
-- 项目对外发布的内容由社团负责，**不代表校方的正式立场或官方发布**；
-- 校名、校徽等标识依据双方合作协议使用，权利归学校所有；
-- 校方在本项目中的具体使用范围与权利，以双方合作协议为准。
+| 校园主路 | 教学区街景 |
+| :---: | :---: |
+| ![校园主路](docs/images/cover.jpg) | ![教学区街景](docs/images/gallery-1.jpg) |
 
 ---
 
@@ -67,7 +60,7 @@
 
 ### 方式一：导入整合包（推荐）
 
-1. 打开 [Releases](https://github.com/YITMC/YIT-restoration/releases) 页面，下载最新的 `YIT-restoration-*.mrpack`；
+1. 打开 [Releases](https://github.com/YITMC-UEMcraft/YIT-restoration/releases/latest) 页面，下载最新的 `YIT-restoration-*.mrpack`；
 2. 用启动器导入：
    - **HMCL**：版本列表 → 安装新游戏 → 从整合包导入；
    - **PCL2**：下载 → 整合包 → 导入本地整合包；
@@ -82,7 +75,7 @@
 3. 将仓库中的 `config/` 覆盖到版本目录，`resourcepacks/`、`shaderpacks/` 放入对应目录；
 4. 将世界存档解压到 `saves/`，启动游戏。
 
-> 模组请从 CurseForge / Modrinth 官方页面下载，本项目**不转载**任何第三方 jar。
+> 模组请从 Modrinth 官方页面下载，本项目**不转载**任何第三方 jar。
 
 ---
 
@@ -206,9 +199,33 @@ YIT-restoration/
 | 主存档 | `燕京理工学院复原工程-2026-11-06` |
 | 完整体积 | 约 **3.3 GB**，其中 **2.5 GB** 为 `data/DistantHorizons.sqlite` |
 | 发布体积 | 剔除 LOD 缓存后约 **814 MB**，压缩后约 **447 MB** |
-| 分发方式 | [GitHub Releases](https://github.com/YITMC/YIT-restoration/releases/latest)（单个文件 < 2 GB）；超出时使用分卷或网盘镜像 |
+| 分发方式 | [GitHub Releases](https://github.com/YITMC-UEMcraft/YIT-restoration/releases/latest)（单个文件 < 2 GB）；超出时使用分卷或网盘镜像 |
 
 存档中的 LOD 缓存删除后，客户端首次进入会重新生成，不影响建筑本身。发布前还会清除玩家数据、统计与聊天记录。
+
+---
+
+## 社团资产与校方合作
+
+> **本仓库及其中的全部原创内容，均为燕理MC玩家创作协会（YITMC）的集体资产。**
+
+具体包括：世界存档与建筑作品、投影与结构文件、配置方案、文档、截图、宣传素材，以及本项目衍生的整合包。
+
+- 上述内容由社团成员协作创作，**著作权由社团集体享有**，不归属任何个人；
+- 仓库存放于社团组织账号下，个人成员不得以个人名义转让、注册、质押或主张独占权利；
+- 任何对外使用——转载、二次发布、商用、文创开发、商业展出——须事先取得社团书面许可；
+- 参与贡献即视为同意《贡献者授权声明》，详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+完整的资产归属说明见 [NOTICE](NOTICE)。
+
+### 与校方的关系
+
+本项目为**半官方合作项目**：由燕理MC玩家创作协会发起，负责创作、技术实现与日常维护；与燕京理工学院校方按双方合作协议开展合作，校方可在教学、招生宣传、校园文化建设等场景中使用项目成果。
+
+- 燕理MC玩家创作协会是燕京理工学院**注册学生社团**，社团身份可由校方核实；
+- 项目对外发布的内容由社团负责，**不代表校方的正式立场或官方发布**；
+- 校名、校徽等标识依据双方合作协议使用，权利归学校所有；
+- 校方在本项目中的具体使用范围与权利，以双方合作协议为准。
 
 ---
 
@@ -248,12 +265,6 @@ YIT-restoration/
 | 建筑存档、投影、截图、文档 | [CC BY-NC-SA 4.0](LICENSE-ASSETS.md) | 署名 + 非商业 + 相同方式共享 |
 | 第三方模组、光影、汉化包 | 各自原始许可证 | 请遵循原作者条款，本项目不重新分发 |
 
-### 为什么不是 BSD？
-
-BSD 2-Clause / 3-Clause 是**宽松许可证**，明确允许商业使用；一旦加上「禁止商用」，它就不再是 BSD，也不符合 OSI 对开源许可证的定义（OSI 不允许限制使用领域）。因此本项目改用专门为「源码公开 + 禁止商用」设计的 **PolyForm Noncommercial 1.0.0**，建筑与美术资产使用 **CC BY-NC-SA 4.0**。
-
-如果你确实需要 BSD 那样的极简条款、并且接受商业使用，可以把 `LICENSE` 换成 BSD-3-Clause，但请明确：**那时任何人都可以商业使用本项目**。
-
 ### 校方使用
 
 本项目为半官方合作项目。燕京理工学院校方在教学、招生宣传、校园文化建设等非商业场景中的使用，依双方合作协议执行；协议未作约定的，视为社团已授予校方永久、免费、非独占的使用许可。
@@ -264,6 +275,15 @@ BSD 2-Clause / 3-Clause 是**宽松许可证**，明确允许商业使用；一�
 请通过本仓库 Issues 或社团公开渠道联系负责人。
 
 > 说明：社团可为成员在 B 站 / YouTube 等平台发布的**带创作激励的游玩、建造视频**另行出具内容创作许可，不以商业授权论处。
+
+<details>
+<summary><b>为什么不是 BSD？</b></summary>
+
+BSD 2-Clause / 3-Clause 是**宽松许可证**，明确允许商业使用；一旦加上「禁止商用」，它就不再是 BSD，也不符合 OSI 对开源许可证的定义（OSI 不允许限制使用领域）。因此本项目改用专门为「源码公开 + 禁止商用」设计的 **PolyForm Noncommercial 1.0.0**，建筑与美术资产使用 **CC BY-NC-SA 4.0**。
+
+如果你确实需要 BSD 那样的极简条款、并且接受商业使用，可以把 `LICENSE` 换成 BSD-3-Clause，但请明确：**那时任何人都可以商业使用本项目**。
+
+</details>
 
 ---
 
@@ -285,6 +305,8 @@ BSD 2-Clause / 3-Clause 是**宽松许可证**，明确允许商业使用；一�
 
 <div align="center">
 
-**燕理MC玩家创作协会（YITMC）** · 用方块留住校园
+**燕理MC玩家创作协会（YITMC）**
+
+把校园建回来，也把记忆留下来。
 
 </div>
